@@ -38,6 +38,6 @@ resource "google_compute_instance" "default" {
 
 resource "google_storage_bucket_object" "picture" {
   name   = "tfcodes2s/DataSpeak-main-s2s.zip"
-  source = "/var/lib/jenkins/workspace/hack-24-s2s/code-deployment-scm/DataSpeak-main-s2s.zip"
+  source = "/var/lib/jenkins/workspace/hack-24-s2s/code-deployment-scm-s2s/DataSpeak-main-s2s.zip"
   bucket = "ai-alchemist"
 }
